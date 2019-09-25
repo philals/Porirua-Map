@@ -32,7 +32,7 @@ addMarker(-41.119978, 174.856833, "Aotea Lagoon", "Aotea Lagoon features a huge 
 
 var popup = L.popup()
     .setLatLng([-41.1351, 174.8391])
-    .setContent(`<h1><b>Welcome to Porirua</h1></b>Explore this page to see all the fun activities for you and your family. Click on the pins to find out more information about many great activies for families in Porirua.<br><br><img src="/images/${photo2}" height="240px" width="280px"/>`)
+    .setContent(`<h1><b>Welcome to Porirua</h1></b>Explore this page to see all the fun activities for you and your family. Click on the pins to find out more information about many great activies for families in Porirua.<br><br><img src="../images/${photo2}" height="240px" width="280px"/>`)
     .openOn(mymap);
 
 function onMapClick(e) {
