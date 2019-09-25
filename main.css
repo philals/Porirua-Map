@@ -1,1 +1,12 @@
+* {
+     font-family: 'Be Vietnam', sans-serif;
+
+}
+
 #mapid { height: 400px; }
+
+header {
+    text-align: center;
+    /* font-family: 'Mansalva', cursive; */
+}
+
