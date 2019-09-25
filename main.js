@@ -12,7 +12,7 @@ var photo2 = "porirua.jpeg"
 
 function addMarker(long, lat, name, subtitle, photo, website) {
     L.marker([long, lat]).addTo(mymap).bindPopup(`<b><h2>${name}</h2></b>${subtitle}<br><br> 
-    <img src="./images/${photo}" height="140px" width="180px"/> <br><br>For opening hours and ticket prices:<br> <a href=${website} target="_blank">Visit Website</a>`);
+    <img src="/images/${photo}" height="140px" width="180px"/> <br><br>For opening hours and ticket prices:<br> <a href=${website} target="_blank">Visit Website</a>`);
 }
 
 addMarker(-41.13158, 174.83352, "Awesome Bounce", "Childrens playland and cafe, bouncy castles, indoor trampolines and climbing wall", "bounce.jpg", "https://www.awesomebounce.co.nz/");
